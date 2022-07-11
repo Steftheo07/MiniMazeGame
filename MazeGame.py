@@ -47,9 +47,9 @@ class Player(object):
  
 def playmusic():
     pygame.mixer.init()
-    pygame.mixer.music.load("untitled.wav")
+    pygame.mixer.music.load("music.wav")
     pygame.mixer.music.play()
-#playmusic()
+playmusic()
 # Nice class to hold a wall rect
 class Wall(object):
     
